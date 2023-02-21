@@ -1,6 +1,7 @@
 # WorldBeers
 
 Prima di guardare il progetto un paio di note:
+* Android Studio potrebbe lamentare un errore su un viewModel dove faccio il collect di flow. È un bug, dovreste poter fare il build normalmente.
 * Nel testo dite "dovrà mostrare una barra di ricerca e la lista completa delle birre". A giudicare dalla documentazione, l'api per ottenere la birra è paginata, con dimensione massima di 80. 
 Stavo per implementare paging, ma poi scrivete "La barra di ricerca dovrà filtrare le birre in base a nome e descrizione". L'api non supporta ricerca per descrizione, ed essendo che avete parlato
 di filtro, ho pensato che paging non avesse senso, quindi non l'ho implementato, la lista iniziale contiene direttamente 80 elementi. Comunque conosco paging e posso mostrarvi un altro paio di progetti

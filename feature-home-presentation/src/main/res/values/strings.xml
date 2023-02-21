@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abv_label">abv: %s</string>
+    <string name="ibu_label">ibu: %s</string>
+    <string name="ibu_missing">N/A</string>
+    <string name="search">Search</string>
+    <string name="brewer_tips_label">Brewer tips</string>
+    <string name="food_pairing_label">Food pairing</string>
+    <string name="first_brewed_label">First brewed</string>
+</resources>
